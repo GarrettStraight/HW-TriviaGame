@@ -1,0 +1,47 @@
+body {
+    background-image: url("../images/littleG404.png");
+    background-repeat: repeat;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Press Start 2P', Verdana, Geneva, Tahoma, sans-serif;
+	color: orange;
+	padding: 10px;
+    text-shadow: 2px 2px black;
+}
+
+.answer,
+#timer {
+	font-weight: 900;
+}
+
+#start {
+    color: rgb(240, 231, 231);
+	padding: 25px;
+    text-shadow: 2px 2px rgb(228, 17, 17);
+}
+
+.choices {
+	text-align: center;
+	border: groove 2px rgb(240, 229, 229);
+	border-radius: 5%;
+	margin: 0 35%;
+}
+
+.choices:hover {
+	background-color: orange;
+	color: white;
+}
+
+#gameScreen {
+	background-image: url("../images/littleG404.png");
+	color:white;
+    background-repeat: repeat;
+	-webkit-box-shadow: 7px 5px 47px 0px rgba(1, 12, 5, 0.76);
+	-moz-box-shadow: 7px 5px 47px 0px rgba(12, 36, 19, 0.76);
+	box-shadow: 7px 5px 47px 0px  rgba(12, 36, 19, 0.76);
+}
+
+
